@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Table</title>
+</head>
+<body>
+	<style >
+	.tr{
+background-color: #196F3D;  
+}
+.top{
+	background-color:#ABB2B9;
+}
+.top1{
+	color: red;
+
+}
+</style>
+<TABLE BORDER=1 ALIGN=center>
+<CAPTION>Заголовок таблиці</CAPTION>
+<TR><TH>Заголовок 1</TH><TH>Заголовок 2</TH></TR>
+<TR><TD>Комірка 1</TD><TD>Комірка 2</TD></TR>
+<TR><TD>Комірка 3</TD><TD>Комірка 4</TD></TR>
+</TABLE>	
+<br>
+<hr width="50%" align="center">
+<TABLE BORDER=1 ALIGN=center>
+<TR><TH COLSPAN=3>Заголовок на 3 стовпця</TH></TR>
+<TR>
+<TH>Заголовок на 1 рядок</TH>
+<TD>Комірка 1</TD>
+<TD>Комірка 2</TD>
+</TR>
+<TR>
+<TH ROWSPAN=3>Заголовок на 3 рядки</TH>
+<TD>Комірка 3</TD>
+
+<TD>Комірка 4</TD>
+</TR>
+<TR><TD>Комірка 5</TD><TD>Комірка 6</TD></TR>
+<TR><TD>Комірка 7</TD><TD>Комірка 8</TD></TR>
+</TABLE>
+<table BORDER=4>
+	<TR><TH>Заголовок 1</TH><TH COLSPAN=2>Заголовок на 2 стовпця</TH></TR>
+		<TR><TH class = "top">Заголовок на 1 строку</TH><TD class = "top">Ячейка 1</TD><TD class = "tr">Ячейка 2</TD></TR>
+<TH ROWSPAN=3>Заголовок на 3 рядки</TH>
+<TD>Ячейка 3</TD>
+
+<TD>Ячейка 4</TD>
+</TR>
+<TR><TD class = "top1" >Ячейка 5</TD><TD ROWSPAN=2>Ячейка 6</TD></TR>
+<TR><TD>Ячейка 7</TD>
+</table>
+</body>
+</html>
