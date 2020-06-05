@@ -1,0 +1,88 @@
+*
+h1 {
+position: absolute;
+
+border-left: 30px;
+border-top: 10px;
+border-right: 255px;
+border-bottom: 8px;
+color: #0000FF;
+}
+p{
+	position: absolute;
+border-left: 30px;
+margin-top: 80px;
+border-right: 30px;
+border-bottom: 3px;
+color: #FFA500;
+padding-left: 70px;
+}
+
+.box1 {
+	float: left;
+	background: #FFA500;
+	margin: 300px 300px 300px 300px;
+	border: #E0E0E0 2px solid;
+	width: 50px;
+	height: 50px;
+}
+.box2 {
+float: left;
+	background: #87CEEB;
+	margin: 300px 300px 0px -50px;
+	border: #E0E0E0 2px solid;
+	width: 50px;
+	height: 50px;
+}
+.box3 {
+float: left;
+	background: #DAA520;
+	margin: 400px 0px -200px -660px;
+	border: #E0E0E0 2px solid;
+	width: 50px;
+	height: 50px;
+}
+.box4 {
+float: left;
+	background: #8B0000;
+	margin: 400px 300px 0px -350px;
+	border: #E0E0E0 2px solid;
+	width: 50px;
+	height: 50px;
+}
+.dog1 {
+position: relative;
+left: -300px;
+bottom: 150px;
+top:50px;
+}
+.dog2 {
+position: relative;
+left: -50px;
+bottom: 500px;
+top:100px;
+}
+.dog3 {
+position: relative;
+left: -200px;
+bottom: 700px;
+top:200px;
+}
+.ten_of_diamonds {
+position: absolute;
+left: 90px;
+top: 200px;
+z-index: 1;
+}
+.jack_of_diamonds {
+	position: absolute;
+left: 105px;
+top: 215px;
+z-index: 2;
+}
+.queen_of_diamonds {
+position: absolute;
+left: 120px;
+top: 230px;
+z-index: 3;
+}
